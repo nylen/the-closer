@@ -1,0 +1,7 @@
+{
+	"username"         : "your_gh_username",
+	"apiToken"         : "your_gh_api_token",
+	"owner"            : "nylen",
+	"repo"             : "the-closer",
+	"firstIssueNumber" : 0
+}
