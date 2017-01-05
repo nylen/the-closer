@@ -25,7 +25,7 @@ Then fill in the values in `config.json`.
 - `username`: Your GitHub username.
 - `apiToken`: Your [GitHub API token](https://github.com/settings/tokens).
 - `owner`: The owner of the repository where you want to close issues.
-- `owner`: The name of the repository where you want to close issues.
+- `repo`: The name of the repository where you want to close issues.
 - `firstIssueNumber`: Close issues with this issue number or higher.
 
 For the message to use when closing an issue, the plugin will read a file
