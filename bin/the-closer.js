@@ -87,11 +87,15 @@ function closeIssues( issues ) {
 		return;
 	}
 	const issue = issues[ 0 ];
+	let message = config.message;
+	if ( issue.number % 1000 === 0 ) {
+		message += '\n\n:tada: Congrats on issue number ' + issue.number + '!';
+	}
 	gh.issues.createComment( {
 		owner  : config.owner,
 		repo   : config.repo,
 		number : issue.number,
-		body   : config.message,
+		body   : message,
 	}, ( err, res ) => {
 		if ( err ) {
 			throw err;
