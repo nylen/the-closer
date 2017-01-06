@@ -15,6 +15,7 @@ Then:
 ```
 git clone https://github.com/nylen/the-closer.git
 cd the-closer
+npm install
 cp sample-config.json config.json
 ```
 
